@@ -50,9 +50,6 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.FriendlyUrls">
-      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net40\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
@@ -60,7 +57,6 @@
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="login.aspx" />
-    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\COR-W81-101.pubxml" />
     <None Include="Properties\PublishProfiles\NVIDIA_Sucks.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />

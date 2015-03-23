@@ -1,5 +1,5 @@
 
-using Microsoft.AspNet.FriendlyUrls;
+//using Microsoft.AspNet.FriendlyUrls;
 
 namespace ProtectedDownloadForm
 {
@@ -7,9 +7,9 @@ namespace ProtectedDownloadForm
     {
 		public static void RegisterRoutes(System.Web.Routing.RouteCollection routes)
         {
-			FriendlyUrlSettings settings = new FriendlyUrlSettings();
-            settings.AutoRedirectMode = RedirectMode.Permanent;
-            routes.EnableFriendlyUrls(settings);
+            //FriendlyUrlSettings settings = new FriendlyUrlSettings();
+            //settings.AutoRedirectMode = RedirectMode.Permanent;
+            //routes.EnableFriendlyUrls(settings);
         }
     }
 }
