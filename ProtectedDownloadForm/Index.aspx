@@ -24,8 +24,7 @@ public static string GetImageMime(byte[] bt64)
 		msInputStream.Dispose();
 	} 
 	catch (Exception ex) 
-	{
-	}
+	{ }
 
 	return strImageMime;
 }
