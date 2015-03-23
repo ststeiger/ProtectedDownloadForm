@@ -61,6 +61,7 @@
     <Content Include="Index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\COR-W81-101.pubxml" />
     <None Include="Properties\PublishProfiles\NVIDIA_Sucks.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Web.config" />
