@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" %><script runat="server">
+﻿<%@ Page Language="C#" EnableViewState="false" EnableViewStateMac="false"  ValidateRequest="false" %><script runat="server">
 	
 
 public static string GetImageMime(byte[] bt64)
