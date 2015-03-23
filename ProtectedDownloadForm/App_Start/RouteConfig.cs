@@ -1,20 +1,15 @@
 
+using Microsoft.AspNet.FriendlyUrls;
+
 namespace ProtectedDownloadForm
 {
-
-
     public static class RouteConfig
     {
-
-
-        public static void RegisterRoutes(System.Web.Routing.RouteCollection routes)
+		public static void RegisterRoutes(System.Web.Routing.RouteCollection routes)
         {
-            // routes.EnableFriendlyUrls();
-            Microsoft.AspNet.FriendlyUrls.RouteCollectionExtensions.EnableFriendlyUrls(routes);
+			FriendlyUrlSettings settings = new FriendlyUrlSettings();
+            settings.AutoRedirectMode = RedirectMode.Permanent;
+            routes.EnableFriendlyUrls(settings);
         }
-
-
-    } // End Class RouteConfig
-
-
-} // End Namespace ProtectedDownloadForm
+    }
+}
