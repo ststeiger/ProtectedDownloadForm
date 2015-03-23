@@ -63,12 +63,7 @@
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\NVIDIA_Sucks.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="web.config" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
