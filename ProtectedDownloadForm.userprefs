@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="ProtectedDownloadForm/ProtectedDownloadForm.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="firefox" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProtectedDownloadForm/Index.aspx">
+    <Files>
+      <File FileName="ProtectedDownloadForm/login.aspx" Line="1" Column="7" />
+      <File FileName="ProtectedDownloadForm/Web.config" Line="19" Column="34" />
+      <File FileName="ProtectedDownloadForm/Index.aspx" Line="1681" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
